@@ -1,0 +1,19 @@
+<h1>Student List from Spring boot application</h1>
+
+<div>
+  <table border="1" class="table">
+    <thead class="thead-dark">
+      <th scope="col">Emp Id</th>
+      <th scope="col">Emp Name</th>
+      <th scope="col">Department Name</th>
+      <th scope="col">Salary</th>
+    </thead>
+    <tr *ngFor="let student of students">
+      <td>{{student.id}}</td>
+      <td>{{student.name}}</td>
+      <td>{{student.department}}</td>
+      <td>{{student.course}}</td>
+    </tr>
+  </table>
+</div>
+
